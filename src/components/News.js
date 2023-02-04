@@ -45,8 +45,9 @@ import { useInsertionEffect } from "react";
 
 
   const fetchMoreData = async () => {
+    
+    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apikey=7365ee0e4a3f4f2b9ebbfbbc4e207288&page=${page+1}&pageSize=${props.pageSize}`;
     setPage(page+1)
-    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apikey=7365ee0e4a3f4f2b9ebbfbbc4e207288&page=${page}&pageSize=${props.pageSize}`;
     let data = await fetch(url);
     let parsedData = await data.json()
     setArticles(articles.concat(parsedData.articles))
@@ -56,7 +57,7 @@ import { useInsertionEffect } from "react";
 
     return (
       <div>
-          <h2 className="text-center " style={{ margin: "40px 0px" }}>
+          <h2 className="text-center " style={{ margin: "40px 0px", marginTop : '90px' }}>
             Vaibnews - Top {toCapitalCase(props.category)} Headlines{" "}
           </h2>
           {/* {this.state.loading && <Spinner/>} */}

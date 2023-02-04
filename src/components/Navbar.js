@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React   from 'react'
 import {Link} from "react-router-dom";
 
 const Navbar= ()=>{
@@ -7,7 +7,7 @@ const Navbar= ()=>{
 
     return (
       <div>
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
     <Link className="navbar-brand" to="/">MonkNews</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,9 +50,9 @@ const Navbar= ()=>{
         </div>
         <button className="btn btn-outline-success" type="submit">Search</button>
       </form> */}
-      <div class="form-check form-switch">
-        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
-        <label class="form-check-label" htmlFor="flexSwitchCheckDefault">Enable Dark Mode</label>
+      <div className="form-check form-switch">
+        <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
+        <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Enable Dark Mode</label>
       </div>
     </div>
   </div>
