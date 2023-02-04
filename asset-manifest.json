@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/MonkNews/static/css/main.073c9b0a.css",
-    "main.js": "/MonkNews/static/js/main.d45ea07d.js",
+    "main.js": "/MonkNews/static/js/main.c77a030e.js",
     "static/js/787.4c026eef.chunk.js": "/MonkNews/static/js/787.4c026eef.chunk.js",
     "static/media/spinner.gif": "/MonkNews/static/media/spinner.88d0260199cb5ab23961.gif",
     "index.html": "/MonkNews/index.html",
     "main.073c9b0a.css.map": "/MonkNews/static/css/main.073c9b0a.css.map",
-    "main.d45ea07d.js.map": "/MonkNews/static/js/main.d45ea07d.js.map",
+    "main.c77a030e.js.map": "/MonkNews/static/js/main.c77a030e.js.map",
     "787.4c026eef.chunk.js.map": "/MonkNews/static/js/787.4c026eef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.d45ea07d.js"
+    "static/js/main.c77a030e.js"
   ]
 }
